@@ -69,8 +69,8 @@ def install_modules():
    
 if __name__ == "__main__":
     
-    # create_db()
-    # install_modules()
+    create_db()
+    install_modules()
     
     #create accounts
 #not working in 8.0    
