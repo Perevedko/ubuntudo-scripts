@@ -31,7 +31,7 @@ def create_db():
 def install_modules():
             
     odoo = odoorpc.ODOO(domain, port=port)
-    modules_to_install = ['base_location','base_location_geonames_import','crm','l10n_it','l10n_it_base','l10n_it_vat_registries','l10n_it_base_prov, l10n_it_base_location_geonames_import']
+    modules_to_install = ['base_location','base_location_geonames_import','crm','l10n_it','l10n_it_base','l10n_it_vat_registries','l10n_it_base_prov', 'sale']
     # 'l10n_it_base_location_geonames_import' can't be installed
     #to avoid issues, I did not put 'l10n_it_ddt' or 'account_asset'
     modules_to_uninstall = ['l10n_us','procurement_jit']
